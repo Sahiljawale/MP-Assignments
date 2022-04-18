@@ -30,8 +30,8 @@ _start:
     syscall
     
     
-    mov rax,0
-    mov rdi,0
+    mov rax,1
+    mov rdi,1
     mov rsi,num
     syscall
     
